@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes</title>
+    <!--Codigo css de bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Google Fonts raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <!--Fonts awesome-->
+    <script src="https://kit.fontawesome.com/282f97a6b0.js" crossorigin="anonymous"></script>
+</head>
+<body class="text-light">
+    <!--Navbar de bootstrap-->
+    <nav class="navbar navbar-expand-lg text-light fixed-top">
+        <div class="container">
+            <img class="logo" src="assets/img/viajes.svg" alt="logo viajes">Viajes Chile
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-light">
+              <li class="nav-item">
+                <a aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#quienes-somos">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#destacados">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+      <header class="hero mt-5" id="inicio">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </header>
+      <!--seccion quienes somos-->
+      <section class="container text-center my-5" id="quienes-somos">
+        <h2 class="text-light">Quienes Somos?</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-plane fa-2x text-light my-3 iconos"></i>
+                <p class="my-3 text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet vero quasi veritatis rem laborum corrupti, suscipit ipsam similique, nulla optio molestiae, porro natus at quia dolorem obcaecati eaque enim tenetur? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum distinctio accusantium impedit molestiae, maiores adipisci repellat beatae voluptatem mollitia nesciunt blanditiis magni voluptate, quia odit minima, hic optio vero? Ab?</p>
+
+            </div>
+            <div class="col-md-4 my-3">
+                <p class="my-3 text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto recusandae culpa nemo doloremque ipsam, molestiae similique labore aspernatur harum tempore soluta debitis natus. Vitae, sed laudantium pariatur esse obcaecati aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dignissimos libero sit deleniti, soluta id, eligendi debitis voluptates, aperiam consequuntur numquam odit sint voluptatum facilis minima tempore non eos autem.</p>
+                <i class="fas fa-mountain fa-2x text-light my-3 iconos"></i>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-route fa-2x text-light my-3 iconos"></i>
+                <p class="my-3 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit maxime aut hic, sapiente omnis distinctio animi in consectetur non error similique earum nisi. Cum quo quod enim fugiat error debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. At consequatur accusantium, et, similique architecto dolorem recusandae quam non in culpa fugit, enim labore quaerat cumque exercitationem natus. Nostrum, error. Consectetur!</p>
+
+            </div>
+        </div>
+        
+      </section>
+      <section class="container text-center my-3 p-5" id="destacados">
+        <h2 class="text-light">Destacados</h2>
+        <hr>
+        <!--Cards de bootstrap-->
+        <div class="card-group">
+            <div class="card card-propio text-light">
+              <img src="assets/img/card1.jpg" class="card-img-top img-card" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="card card-propio text-light">
+              <img src="assets/img/card2.jpg" class="card-img-top img-card" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Consectetur adipisci velit</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="card card-propio text-light">
+              <img src="assets/img/card3.jpg" class="card-img-top img-card" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="card card-propio text-light">
+                <img src="assets/img/card4.jpg" class="card-img-top img-card" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Ut enim ad minim veniam</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+          </div>
+      </section>
+      <section class="container my-3 p-5 text-light" id="contacto">
+          <h2 class="text-light text-center">Contacto</h2>
+          <!--Contact form de typeform q no funciona :( -->
+          <div data-tf-widget="fp0vyBbZ" style="width:100%;height:400px;"></div><script src="http://embed.typeform.com/next/embed.js"></script>
+      </section>
+
+      <footer class="container-fluid">
+        <span class="iconos-foo">VIAJES CHILE</span>
+          <a href="">
+            <i class="fab fa-github-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+      </footer>
+      
+    <!--Codigo js bundle de bootstrap 5-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--Script js-->
+    <script src="assets/js/scripts.js"></script>
+    <!--estilo propio-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</body>
+</html>

@@ -1,0 +1,59 @@
+.logo{
+    width: 30px;
+}
+body{
+    background-color: black;
+    margin-top: -2px;
+}
+nav{
+    background-color: #34a4b8;
+}
+.fixed{
+    position:fixed; 
+    top:0;
+    width: 100%;
+    overflow: hidden;
+}
+li a{
+    color: #ffffff;
+    text-decoration: none; 
+    margin-left: 15px;
+}
+.iconos{
+    width: -webkit-fill-available;
+    background-color: #34a4b8;
+}
+.img-card{
+    height: 200px;
+}
+.card-propio{
+    border: 1px solid;
+    margin: 5px 20px 5px 5px;
+    background-color: #34a4b8;
+}
+.icono{
+    width: 2rem;
+}
+
+.icono svg{
+    fill: white;
+}
+.foo{
+    width: 15%;
+}
+footer{
+    background-color: #34a4b8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.iconos-foo{
+    padding-left: 400px;
+    padding-right: 700px;
+}
+footer i{
+    margin: 0 0.25em 0.5em 0.25em;
+}
